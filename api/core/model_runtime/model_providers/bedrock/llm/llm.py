@@ -73,6 +73,7 @@ class BedrockLargeLanguageModel(LargeLanguageModel):
         {"prefix": "ai21.jamba-1-5", "support_system_prompts": True, "support_tool_use": False},
         {"prefix": "amazon.nova", "support_system_prompts": True, "support_tool_use": False},
         {"prefix": "us.amazon.nova", "support_system_prompts": True, "support_tool_use": False},
+        {"prefix": "us.deepseek", "support_system_prompts": True, "support_tool_use": False},
     ]
 
     @staticmethod
